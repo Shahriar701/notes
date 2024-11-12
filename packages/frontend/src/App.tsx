@@ -4,7 +4,7 @@ import Routes from "./Routes";
 import Nav from "react-bootstrap/Nav";
 import { LinkContainer } from "react-router-bootstrap";
 import { useState, useEffect } from "react";
-import { AppContext, AppContextType } from "./lib/contextLib";
+import { AppContext } from "./lib/contextLib";
 import { Auth } from "aws-amplify";
 import { onError } from "./lib/errorLib";
 
